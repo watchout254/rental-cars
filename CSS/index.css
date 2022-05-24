@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.navbar {
+    text-decoration: none;
+   margin: auto;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+
+nav ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    color:lightgoldenrodyellow;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color:dodgerblue;
+} 
+
+.logo {
+    clip-path:none;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    /*background-color:black;*/
+    background-image: url(../IMAGES/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-left: 510px;
+    font-size: 30px;
+    font-family: 'karla', sans-serif;
+    font-weight: bold;
+    color: mistyrose;
+}
+
+.slider-frame {
+    overflow: hidden;
+    height: 900px;
+    width: 1000px;
+    margin-left: 230px;
+    margin-top: 20px;
+}
+
+@-webkit-keyframes slide_animation {
+    0%{left:0px;}
+    10%{left:0px;}
+    20%{left:1200px;}
+    30%{left:1200px;}
+    40%{left:2400px;}
+    50%{left:2400px;}
+    60%{left:1200px;}
+    70%{left:1200px;}
+    80%{left:0px;}
+    90%{left:0px;}
+    100%{left:0px;}
+}
+
+.slide-images {
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name:slide_animation;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.img-container {
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+
+p{
+    color: mistyrose;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#img1 {
+    clip-path: circle();
+}
+
+#rev1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#rev2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#rev3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#rev4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+h3 {
+    color: bisque;
+    text-align:center;
+    text-decoration: line-through;
+}
+
+.content-card {
+    background-color:black;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a i {
+    padding: 20px;
+    color: yellow;
+}
