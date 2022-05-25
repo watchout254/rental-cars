@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.navbar {
+    text-decoration: none;
+   margin: auto;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    color:moccasin;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color:black;
+} 
+
+.logo {
+    clip-path:none;
+}
+body {
+    background-image: url(../IMAGES/rent.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form {
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    color:black;
+
+}
+
+button {
+    background-color: black;
+    color: yellow;
+    font-weight: bolder;
+    cursor:grab;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a i {
+    padding: 20px;
+    color: yellow;
+}
+
+p{
+    color: mistyrose;
+    font-weight: bold;
+    font-style: oblique;
+}
