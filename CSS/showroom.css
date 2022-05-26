@@ -25,7 +25,7 @@ nav ul li {
 nav ul li a {
     display: block;
     padding: 0 10px;
-    color:black;
+    color:dodgerblue;
     text-decoration: none;
     line-height: 60px;
     font-size: 20px;
@@ -33,9 +33,79 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color:dodgerblue;
+    color:gold;
 } 
 
 .logo {
     clip-path:none;
+}
+
+body {
+    background-image: url(../IMAGES/room.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+footer {
+    text-align: center;
+}
+
+footer a i {
+    padding: 20px;
+    color: yellow;
+}
+
+p{
+    color: mistyrose;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.cars img {
+    clip-path: ellipse();
+}
+
+#car1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#car3 {
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+}
+
+#car5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#car7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#p1 {
+    color:yellow;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: moccasin;
+    font-weight: bolder;
+    cursor:pointer;
+}
+
+video {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
